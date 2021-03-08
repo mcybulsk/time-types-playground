@@ -32,7 +32,7 @@ abstract class BaseTimeHandlingTest {
 
     protected MySQLContainer<?> runMySql(String timezone, Path tempDir) {
         MySQLContainer mySQLContainer =
-            new MySQLContainer<>(DockerImageName.parse("mysql"))
+            new MySQLContainer<>(DockerImageName.parse("mysql:5.6"))
                 .withEnv("TZ", timezone)
                 .withFileSystemBind(tempDir.toString(), "/var/lib/mysql");
         mySQLContainer.start();
