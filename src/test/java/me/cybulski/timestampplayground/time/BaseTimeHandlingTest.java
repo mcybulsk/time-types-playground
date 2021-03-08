@@ -64,11 +64,11 @@ abstract class BaseTimeHandlingTest {
     private List<String> prepareSpringAppProperties(MySQLContainer<?> mySQLContainer, List<String> additionalProperties) {
         List<String> properties = Lists.newArrayList(
             "spring.datasource.driver-class-name=com.mysql.jdbc.Driver",
-            "spring.datasource.url=" + mySQLContainer.getJdbcUrl(),
+            "spring.datasource.url=" + mySQLContainer.getJdbcUrl() + "?useSSL=false",
             "spring.datasource.username=" + mySQLContainer.getUsername(),
             "spring.datasource.password=" + mySQLContainer.getPassword(),
             "spring.jpa.hibernate.ddl-auto=validate",
-            "spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect"
+            "spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect"
         );
         properties.addAll(additionalProperties);
         return properties;

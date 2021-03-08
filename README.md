@@ -9,7 +9,7 @@ DB is run in different timezones or when data types change.
 
 ### App/Library and DB versions and running
 
-- Spring version 5
+- Spring version 4
 - Hibernate version 5
 - Latest MySQL version
 
