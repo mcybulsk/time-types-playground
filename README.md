@@ -107,7 +107,7 @@ Legend:
 | `UTC`             | `UTC`              | `Europe/Warsaw`  | `UTC`             | 🟢️                           | 🔴                          | 🟢️                                 | 🔴                                | 🟢️                        | 🔴                       |
 | `Europe/Warsaw`   | `UTC`              | `Europe/Warsaw`  | `UTC`             | 🟢️                           | 🟢️                          | 🟢️                                 | 🟢️                                | 🟢️                        | 🟢️                       |
 | `Europe/Warsaw`   | `UTC`              | `UTC`            | `UTC`             | 🟢️                           | 🔴                          | 🟢️                                 | 🔴                                | 🟢️                        | 🔴                       |
-| `UTC`             | `UTC`              | `Europe/Warsaw`  | `Europe/Warsaw`   | 🟢️                           | 🔴                          | 🟢️                                 | 🔴                                | 🟢️                        | 🔴                       |
+| `UTC`             | `UTC`              | `Europe/Warsaw`  | `Europe/Warsaw`   | 🟢️                           | 🔴                          | 🔴️                                 | 🟢                                | 🟢️                        | 🔴                       |
 
 #### Takeaways
 
