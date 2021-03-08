@@ -10,7 +10,7 @@ DB is run in different timezones or when data types change.
 ### App/Library and DB versions and running
 
 - Spring version 4
-- Hibernate version 5
+- Hibernate version 4
 - Latest MySQL version
 
 The tests are running the Spring 5 App with Hibernate 5. App timezone is changed like this (this sets the default JVM
