@@ -11,7 +11,7 @@ DB is run in different timezones or when data types change.
 
 - Spring version 4
 - Hibernate version 4
-- Latest MySQL version
+- MySQL version 5.6
 
 The tests are running the Spring 5 App with Hibernate 5. App timezone is changed like this (this sets the default JVM
 timezone to a given value):
